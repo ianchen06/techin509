@@ -6,8 +6,14 @@
 
 There are two ways to write unit tests in Python
 
-1. `unittest` package in the Python standard library
-1. `pytest`, a third-party library that has more features and less boilerplate code
+1. `unittest` package in the Python standard library. [table of assert methods](https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug)
+1. `pytest`, a third-party library that has more features and less boilerplate code. [official doc](https://docs.pytest.org/)
+
+When writing tests, make sure to keep the following in mind
+
+1. **Test for Correctness**: The primary goal of unit tests is to verify that your code works as expected. Focus on writing tests that confirm the correctness of your code's behavior under various conditions, including edge cases.
+1. **Prioritize Readability**: Tests serve as documentation for your code. They should be easy to read and understand, with clear intentions. This often means choosing descriptive names for test functions and making the test logic straightforward.
+1. **Test One Thing at a Time**: A unit test should verify a single aspect of your code’s behavior. If a test fails, it should be clear what is broken. Avoid testing multiple behaviors in one test.
 
 ## Getting Started
 
@@ -53,3 +59,12 @@ Increase code reuse in tests by running similar tests in a loop.
 Just add more test cases in the test_cases list.
 
 - [unittest](./example10_parameterized_tests_unittest/README.md)
+
+### Example 11 - Mocking
+
+What happens if you test some code with this code `input("please input a move?")`, the `input()` functions requires human input.
+
+Sometimes we want to replace parts of the program so it is easier to test, (i.e. input() function)
+
+- [unittest]()
+- [pytest]()
