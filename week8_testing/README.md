@@ -1,6 +1,6 @@
 # Testing
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ianchen06/techin509)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ianchen06/techin509?quickstart=1)
 
 ## Getting Started
 
