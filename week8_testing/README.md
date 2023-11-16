@@ -1,5 +1,7 @@
 # Testing
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ianchen06/techin509)
+
 ## Getting Started
 
 1. Install `pytest`
