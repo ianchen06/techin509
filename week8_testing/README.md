@@ -18,7 +18,7 @@ There are two ways to write unit tests in Python
     pip install pytest
     ```
 
-1. Navigate to the folders of each example in the terminal
+1. Navigate to the folders of each example in the terminal [instruction](../README.md)
 1. Following the instruction in the README of each example to run the examples
 
 ## Examples
@@ -27,27 +27,29 @@ There are two ways to write unit tests in Python
 
 Basic testing of a function
 
-- [unittest](./example1_square_unittest/README.md)
-- [pytest](./example1_square_pytest/README.md)
+- [unittest](./example01_square_unittest/README.md)
+- [pytest](./example01_square_pytest/README.md)
 
 ### Example 2 - Test a Class - Calculator
 
 Testing a Class, with a test case that expects an Error. (divide by zero case)
 
-- [unittest](./example2_calculator_unittest/README.md)
-- [pytest](./example2_calculator_pytest/README.md)
+- [unittest](./example02_calculator_unittest/README.md)
+- [pytest](./example02_calculator_pytest/README.md)
 
 ### Example 3 - Test a Class with dependencies
 
 Game class requires two dependencies during initialization, player1 and player2.
 Because we don't need the behaviors of real players, instead of passing real players, we just use strings as players.
 
-- [unittest](./example3_game_unittest/README.md)
-- [pytest](./example3_game_pytest/README.md)
+- [unittest](./example03_game_unittest/README.md)
+- [pytest](./example03_game_pytest/README.md)
 
-### Example 9 - Use subTest/parameterized tests to run tests in a for loop for each test case
+## Advanced Topocs (Optional)
+
+### Example 10 - Use subTest/parameterized tests to run tests in a for loop for each test case
 
 Increase code reuse in tests by running similar tests in a loop.
 Just add more test cases in the test_cases list.
 
-- 
+- [unittest](./example10_parameterized_tests_unittest/README.md)
