@@ -17,6 +17,7 @@ When writing tests, make sure to keep the following in mind
 
 ## Getting Started
 
+1. Make sure your have a working Python installation and terminal (or use GitHub Codespace, link at the top)
 1. Install `pytest`
 
     Run the following command in the terminal (For Windows users, make sure you select "Git Bash" for your terminal)
